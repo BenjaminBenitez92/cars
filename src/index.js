@@ -1,6 +1,8 @@
 import React from "react";
 import ReactDom from "react-dom/client";
 import App from "./App";
+import 'bulma/css/bulma.css'
+import './styles.css'
 import { Provider } from "react-redux";
 import { store } from "./store";
 const el = document.getElementById("root");
